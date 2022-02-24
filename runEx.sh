@@ -3,4 +3,4 @@
 #SBATCH --output=output/runEx.out
 #SBATCH --partition=standard
 
-Rscript plot/running-example.R
+Rscript example.R

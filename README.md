@@ -2,6 +2,8 @@
 
 This repository contains the code in the paper "A Robustness Test for Estimating Total Effects with Covariate Adjustment" by Zehao Su and Leonard Henckel.
 
+RoCA is an acronym for **Ro**bust **C**ovariate **A**djustment.
+
 ## File hierarchy
 
 ```
