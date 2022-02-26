@@ -11,20 +11,20 @@ RoCA is an acronym for **Ro**bust **C**ovariate **A**djustment.
 ├── data                                  # data from Sachs et al. (2005)
 │   ├── 10. cd3cd28icam2+aktinhib.xls
 │   └── ...
-├── example.R                             # code for Example 9
-├── R                                     # R code for the implementation of our test
-│   ├── get_true_covmat.R
-│   ├── get_unique_node_vas.R
-│   ├── irm.R
-│   ├── main.R
-│   ├── setup.R
-│   ├── simulate_from_dag.R
-│   ├── test.R
-│   └── wald_test.R
 ├── README.md
-├── runEx.sh                              # script for running example.R
-├── runSim.sh                             # script for running simulation.R
-├── run_simulation.R                      # code for the simulation study
-├── sc_graph.R                            # code for the real data example
-└── simulation.R                          # wrapper of run_simulation.R
+├── RoCA                                  # implementation of testing procedure
+│   ├── RoCA.R                            # main function of the test
+│   ├── utils.R                           # utility functions for RoCA.R
+│   ├── utils-vignette.R                  # utilities for vignette.R
+│   └── vignette.R                        # examples for the usage of RoCA 
+└── simulation                            # code for the simulation
+	├── example.R                         # code for Example 9
+    ├── R                                 # folder of R functions for the simulation
+    │   ├── get_true_covmat.R
+    │   └── ...
+    ├── runEx.sh                          # script for running example.R
+    ├── runSim.sh                         # script for running simulation.R
+    ├── run_simulation.R                  # code for the simulation study
+    ├── sc_graph.R                        # code for the real data example
+    └── simulation.R                      # wrapper of run_simulation.R
 ```

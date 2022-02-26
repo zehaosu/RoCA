@@ -3,9 +3,9 @@ library(dplyr)
 library(ggplot2)
 library(plotrix)
 
-source("path/setup.R")
+source("path/to/setup.R")
 
-dat <- read_xls("data/1. cd3cd28.xls")
+dat <- read_xls("path/to/data/1. cd3cd28.xls")
 dat <- dat %>% log %>% scale(scale = FALSE)
 
 amat <- t(matrix(c(0,0,0,0,0,0,0,1,1,0,0,
