@@ -18,7 +18,7 @@ RoCA is an acronym for **Ro**bust **C**ovariate **A**djustment.
 │   ├── utils-vignette.R                  # utilities for vignette.R
 │   └── vignette.R                        # examples for the usage of RoCA 
 └── simulation                            # code for the simulation
-	├── example.R                         # code for Example 9
+    ├── example.R                         # code for Example 9
     ├── R                                 # folder of R functions for the simulation
     │   ├── get_true_covmat.R
     │   └── ...
